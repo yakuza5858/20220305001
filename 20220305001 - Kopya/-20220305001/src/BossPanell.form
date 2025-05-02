@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="BossPanell">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="708" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="7b977" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <background color="-15847410"/>
+          <foreground color="-1741013"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f3a5d" class="javax.swing.JButton" binding="seeAllProductsButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="See All Products"/>
+            </properties>
+          </component>
+          <hspacer id="dda0b">
+            <constraints/>
+          </hspacer>
+          <vspacer id="c8fc6">
+            <constraints/>
+          </vspacer>
+          <component id="b1b9" class="javax.swing.JButton" binding="addANewProductButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Add a new product"/>
+            </properties>
+          </component>
+          <component id="76a5c" class="javax.swing.JButton" binding="administrativeSettingsButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Administrative Settings"/>
+            </properties>
+          </component>
+          <component id="bb177" class="javax.swing.JButton" binding="backToMainMenuButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Back to Main Menu"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="3bae1">
+        <constraints/>
+        <properties>
+          <background color="-1744827"/>
+          <foreground color="-8854201"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="fe925" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties>
+              <selectionBackground color="-9559017"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
